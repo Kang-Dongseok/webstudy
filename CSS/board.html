@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>board</title>
+    <style>
+		body {
+			background-color: #d1edf7;
+		}
+		.container {
+			width: 600px;
+			margin: 200px auto;
+/*			border: 1px solid black;*/
+		}
+		header > h2 {
+			text-align: center;
+		}
+		table {
+			width: 100%;
+		}
+		table, td {
+			border-top: 3px solid gray;
+			border-bottom: 3px solid gray;
+			border-collapse: collapse;
+		}
+		thead > tr:nth-of-type(1) > td {
+			background-color: silver;
+		}
+		tr > td:nth-of-type(2) {
+			width: 35%;
+		}
+		td {
+			height: 25px;
+			border-top: 1px solid gray;
+			border-bottom: 1px solid gray;
+			padding-left: 5px;
+		}
+		tr:hover {
+			background-color: beige;
+		}
+		footer {
+			margin-top: 20px;
+			display: flex;
+			justify-content: center;
+		}
+		.link-button {
+			display: inline-block;
+			width: 100px;
+			height: 40px;
+			text-align-last: center;
+			line-height: 40px;
+			text-decoration: none;
+			border-radius: 3px;
+			background-color: darkblue;
+			color: white;
+		}
+    </style>
+</head>
+<body>
+	<div class="container">
+		<header>
+			<h2>자유게시판</h2>
+		</header>
+		<section>
+			<table>
+				<thead>
+					<tr>
+						<td>순번</td>
+						<td>제목</td>
+						<td>작성자</td>
+						<td>작성일</td>
+						<td>조회수</td>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>5</td>
+						<td>이용후기</td>
+						<td>존윅</td>
+						<td>2021-04-22</td>
+						<td>20</td>
+					</tr>
+					<tr>
+						<td>4</td>
+						<td>게시판이용문의</td>
+						<td>제임스</td>
+						<td>2021-04-22</td>
+						<td>15</td>
+					</tr>
+					<tr>
+						<td>3</td>
+						<td>가입인사</td>
+						<td>새내기</td>
+						<td>2021-04-21</td>
+						<td>7</td>
+					</tr>
+					<tr>
+						<td>2</td>
+						<td>[필독]게시판이용안내</td>
+						<td>매니저</td>
+						<td>2021-04-21</td>
+						<td>94</td>
+					</tr>
+					<tr>
+						<td>1</td>
+						<td>[긴급]공지사항</td>
+						<td>관리자</td>
+						<td>2021-04-20</td>
+						<td>85</td>
+					</tr>
+				</tbody>
+			</table>
+		</section>
+		<footer>
+			<div>
+				<a class="link-button" href="login.html">로그아웃</a>
+				<a class="link-button" href="personal_info.html">개인정보수정</a>
+			</div>
+		</footer>
+	</div>
+</body>
+</html>
