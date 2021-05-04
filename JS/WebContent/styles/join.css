@@ -1,6 +1,5 @@
 @charset "UTF-8";
 
-
 html {
     font-size: 12px;
     font-family: Dotum, '돋움', Helvetica, sans-serif;
@@ -23,7 +22,7 @@ header > h1 {
     width: 240px;
     height: 44px;
     margin: 0 auto;
-    background-image: url(images/naver.png);
+    background-image: url(../images/naver.png);
     background-size: cover;
     background-position: center;
 }
@@ -65,7 +64,7 @@ label {
     padding-right: 5px;
 }
 .step_url {
-/* absolute : 원래 자리 무시하고 두고 싶은 곳에 두겠다. */
+    /* absolute : 원래 자리 무시하고 두고 싶은 곳에 두겠다. */
     position: absolute;
     top: 16px;
     right: 13px;
@@ -111,9 +110,7 @@ label {
     right: 0;
     width: 115px;
     height: 51px;
-    line-height: 51px;
-    padding 18px 0 16px;
-    color: #ffffff;
+    padding: 18px 0 16px;
     text-align: center;
     text-decoration: none;
     font-size: 15px;
